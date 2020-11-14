@@ -470,7 +470,7 @@ p.questions-sub-text{
     color: var(--color-primary);
     letter-spacing: 3.3px;
     font-size: 11px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
@@ -534,3 +534,29 @@ p.questions-sub-text{
     border: none;
 }
 /*--------------- END Questions section -----------*/
+/*--------------- START Footer --------------------*/
+footer{
+    box-shadow: 0 -5px 40px #00000029;
+    padding: 20px 0;
+}
+footer .page-content-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .logo-foot-text a{
+    color: var(--color-primary);
+    font-family: var(--raleway-font);
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+footer p.logo-sub-text{
+    color: var(--color-grey);
+    font-family: var(--open-sans-font);
+    font-size: 11px;
+}
+footer .facebook{
+    margin-left: 20px;
+}
