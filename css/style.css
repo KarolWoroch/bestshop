@@ -111,13 +111,13 @@ header{
     color:#000;
     margin-bottom: 100px;
 }
-.box-content{
+.sales-box-content{
     max-width: 790px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.box-content .box{
+.sales-box-content .box{
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@ header{
     justify-content: center;
     max-width: 135px;
 }
-.box-content .box .circle{
+.sales-box-content .box .circle{
     height: 63px;
     width: 63px;
     border-radius: 50px;
@@ -133,27 +133,155 @@ header{
     justify-content: center;
     margin-bottom: 15px;
 }
-.box-content .box .circle img{
+.sales-box-content .box .circle img{
     margin-right: -70%;
 }
-.box-content .first-box .circle{
+.sales-box-content .first-box .circle{
     background: var(--color-redish);
 }
-.box-content .middle-box .circle{
+.sales-box-content .middle-box .circle{
     background: var(--color-primary);
 }
-.box-content .last-box .circle{
+.sales-box-content .last-box .circle{
     background: var(--color-green);
 }
-.box-content .count{
+.sales-box-content .count{
     font-family: var(--raleway-font);
     font-weight: 800;
     font-size: 20px;
     margin-bottom: 20px;
 }
-.box-content .sub-text{
+.sales-box-content .sub-text{
     font-family: var(--raleway-font);
     color: var(--color-grey);
     font-size: 17px;
 }
 /*--------------- END Sales section --------------*/
+/*--------------- START Benefits section --------------*/
+.benefits{
+    background: var(--color-light-grey);
+    padding: 105px 0;
+}
+.benefit-box-content{
+    max-width: 1124px;
+    margin: 0 auto;
+}
+.benefit-row{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+    border-radius: 5px;
+}
+.benefit-row.first-row{
+    padding: 75px 75px 35px 35px;
+    border: 1px solid #E8E9ED;
+}
+.benefit-center-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 416px;
+}
+.benefit-title{
+    font-family: var(--raleway-font);
+    color:#000;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.benefit-text{
+    font-family: var(--open-sans-font);
+    font-size: 16px;
+    color:#000;
+    margin-bottom: 50px;
+    line-height: 22px;
+}
+.benefit-row .underline{
+    max-width: 328px;
+    height: 4px;
+}
+.benefit-row .underline-red{
+    background: var(--color-redish);
+}
+.benefit-row .underline-blue{
+    background: var(--color-primary);
+}
+.benefit-row .underline-green{
+    background: var(--color-green);
+}
+.first-row .benefit-right-side{
+    max-width: 440px;
+    height: 295px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.first-row .benefit-right-side img{
+    max-width: 386px;
+    position: relative;
+    z-index: 2;
+}
+.shape-rectangle{
+    background: var(--color-redish);
+    height: 180px;
+    width: 180px;
+    border-radius: 41px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+.middle-row{
+    padding: 27px 20px 12px 75px;
+    border: 1px solid #E8E9ED;
+}
+.middle-row .benefit-left-side{
+    max-width: 420px;
+    height: 345px;
+    position: relative;
+}
+.middle-row .benefit-left-side img{
+    max-width: 426px;
+    position: relative;
+    z-index: 2;
+}
+.shape-circle{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    position: absolute;
+    top: -15px;
+    left: -5px;
+    z-index: 1;
+}
+.middle-row .benefit-right-side{
+    margin-top: -40px;
+}
+.benefit-row.last-row{
+    background: none;
+    border-radius: 0;
+}
+.last-row .benefit-left-side{
+    max-width: 623px;
+    background: #fff;
+    padding: 70px 35px;
+    border-radius: 5px;
+    margin-right: 60px;
+    border: 1px solid #E8E9ED;
+}
+.last-row .benefit-right-side{
+    width: 100%;
+    max-width: 440px;
+    background: var(--color-green);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-row .benefit-right-side img{
+    max-width: 296px;
+    margin-top: 35px;
+}
+/*--------------- END Benefits section --------------*/
