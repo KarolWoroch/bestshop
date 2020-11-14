@@ -100,3 +100,60 @@ header{
 }
 /*--------- END BANNER ----------*/
 /*--------------- END First section --------------*/
+/*--------------- START Sales section --------------*/
+.sales-platform{
+    padding: 100px 0;
+}
+.sales-heading{
+    text-align: center;
+    font-family: var(--raleway-font);
+    font-size: 36px;
+    color:#000;
+    margin-bottom: 100px;
+}
+.box-content{
+    max-width: 790px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box-content .box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 135px;
+}
+.box-content .box .circle{
+    height: 63px;
+    width: 63px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.box-content .box .circle img{
+    margin-right: -70%;
+}
+.box-content .first-box .circle{
+    background: var(--color-redish);
+}
+.box-content .middle-box .circle{
+    background: var(--color-primary);
+}
+.box-content .last-box .circle{
+    background: var(--color-green);
+}
+.box-content .count{
+    font-family: var(--raleway-font);
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.box-content .sub-text{
+    font-family: var(--raleway-font);
+    color: var(--color-grey);
+    font-size: 17px;
+}
+/*--------------- END Sales section --------------*/
