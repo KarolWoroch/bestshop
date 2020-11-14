@@ -394,5 +394,143 @@ header{
 }
 .special-offer{
     transform: scale(1.1);
+    box-shadow: 5px 10px 27px #07ACE629;
 }
 /*--------------- END Pricing section -------------*/
+/*--------------- START Questions section ---------*/
+.page-content{
+    max-width: 896px;
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-left-side{
+    width: 100%;
+}
+.contact-right-side{
+    max-width: 456px;
+    width: 100%;
+}
+h3.questions-text{
+    font-size: 49px;
+    font-family: var(--raleway-font);
+    color:#000;
+    margin-bottom: 22px;
+}
+p.questions-sub-text{
+    font-family: var(--open-sans-font);
+    font-size: 16px;
+    color:#000;
+    margin-bottom: 40px;
+}
+.mail-number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 335px;
+    color: var(--color-grey);
+    font-weight: 700;
+    font-size: 16px;
+    font-family: var(--open-sans-font);
+}
+.question-mail a{
+    color: var(--color-grey);
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.question-mail a:before{
+    content: "";
+    width: 27px;
+    height: 27px;
+    background: url("../assets/Mail Icon.svg");
+    margin-right: 10px;
+}
+.question-number p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.question-number p:before{
+    content: "";
+    width: 27px;
+    height: 27px;
+    background: url("../assets/Phone Icon.svg");
+    margin-right: 10px;
+}
+.form-field{
+    display: flex;
+    flex-direction: column;
+}
+.form-field label{
+    font-family: var(--open-sans-font);
+    color: var(--color-primary);
+    letter-spacing: 3.3px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.form-field input{
+    border: none;
+    border-bottom: 1px solid var(--color-grey);
+    padding: 10px 0;
+    margin-bottom: 40px;
+    color: var(--color-grey);
+    font-size: 14px;
+    font-family: var(--open-sans-font);
+}
+.form-field-checkbox{
+    display: flex;
+    margin-bottom: 20px;
+}
+.form-field-checkbox label{
+    color: #707070;
+    font-family: var(--open-sans-font);
+    font-size: 12px;
+    text-align: justify;
+    margin-left: 10px;
+    line-height: 1.4;
+}
+.form-field-checkbox input[type="checkbox"] {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    border-radius: 4px;
+    background: #fff;
+    outline: none;
+    position: relative;
+    border: 1px solid var(--color-grey);
+    display: flex;
+    flex-shrink: 0;
+}
+.form-field-checkbox input:checked:after {
+    content: "";
+    width: 12px;
+    height: 11px;
+    background-image: url('../assets/Checkmark.svg');
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.contact-form .button-field{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.contact-form button{
+    background: var(--color-primary);
+    color: #fff;
+    font-family: var(--open-sans-font);
+    font-size: 13px;
+    border-radius: 35px;
+    padding: 19px 98px;
+    border: none;
+}
+/*--------------- END Questions section -----------*/
