@@ -232,7 +232,7 @@ header{
     right: 20px;
     z-index: 1;
 }
-.middle-row{
+.benefit-row.middle-row{
     padding: 27px 20px 12px 75px;
     border: 1px solid #E8E9ED;
 }
@@ -246,7 +246,7 @@ header{
     position: relative;
     z-index: 2;
 }
-.shape-circle{
+.middle-row  .shape-circle{
     width: 320px;
     height: 320px;
     border-radius: 50%;
@@ -259,9 +259,9 @@ header{
 .middle-row .benefit-right-side{
     margin-top: -40px;
 }
+
 .benefit-row.last-row{
     background: none;
-    border-radius: 0;
 }
 .last-row .benefit-left-side{
     max-width: 623px;
@@ -285,3 +285,114 @@ header{
     margin-top: 35px;
 }
 /*--------------- END Benefits section --------------*/
+/*--------------- START Pricing section -------------*/
+.pricing{
+    padding: 100px 0;
+}
+.price-title{
+    text-align: center;
+    font-family: var(--raleway-font);
+    font-size: 36px;
+    color:#000;
+    margin-bottom: 70px;
+}
+.pricing-box-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.price-box{
+    max-width: 372px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 18px;
+    padding: 34px 34px 80px 34px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plan-type-title{
+    font-size: 20px;
+    font-family: var(--raleway-font);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.price-box .sub-title{
+    font-family: var(--raleway-font);
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 25px;
+}
+.price-colored{
+    font-family: var(--open-sans-font);
+    font-size: 46px;
+    font-weight: 300;
+}
+.list-options{
+    margin-top: 70px;
+}
+.list-options li{
+    font-family: var(--open-sans-font);
+    font-size: 14px;
+    color:#000;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.list-options li::before{
+    content: " ";
+    width: 11px;
+    height: 11px;
+    background: url("../assets/Ckechmark-1.svg");
+    display: inline-block;
+    margin-right: 10px;
+}
+.list-options li.notallow::before{
+    background: url("../assets/Close.svg");
+}
+.btn-price{
+    padding: 16px 56px;
+    color: #fff;
+    border-radius: 23px;
+    font-family: var(--open-sans-font);
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+}
+.basic .btn-price{
+    background: var(--color-redish);
+}
+.basic .price-colored{
+    color: var(--color-redish)
+}
+.price-box.basic{
+    border-color: var(--color-redish);
+}
+.professional .btn-price{
+    background: var(--color-primary);
+}
+.professional .price-colored{
+    color: var(--color-primary)
+}
+.price-box.professional{
+    border-color: var(--color-primary);
+}
+.premium .btn-price{
+    background: var(--color-green);
+}
+.premium .price-colored{
+    color: var(--color-green)
+}
+.price-box.premium{
+    border-color: var(--color-green);
+}
+.special-offer{
+    transform: scale(1.1);
+}
+/*--------------- END Pricing section -------------*/
